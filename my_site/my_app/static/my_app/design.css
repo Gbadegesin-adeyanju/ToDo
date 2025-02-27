@@ -1,0 +1,12 @@
+.myclass{
+    position: relative;
+    left: 75%;
+}
+
+.details{
+    color: black;
+}
+
+body{
+    background-color: whitesmoke;
+}

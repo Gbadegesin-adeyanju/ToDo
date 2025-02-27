@@ -1,0 +1,7 @@
+<h1>Delete page</h1>
+<p> Are sure you want to delete it?</p>
+<form method='POST'>
+    {% csrf_token %}
+    {{form.as_p}}
+    <input type='submit'>
+</form>
